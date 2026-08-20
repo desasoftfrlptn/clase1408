@@ -1,0 +1,88 @@
+# Comandos de Git — los que usamos en la clase del 14/08 (+ el flujo de la actividad)
+
+> Este archivo es una **hoja de referencia rápida**. No es para memorizar: tenelo a mano mientras trabajás en tu aporte.
+
+---
+
+## Las 3 zonas (la idea clave)
+
+Git trabaja con tres lugares:
+
+| Zona | Qué es | Analogía |
+|---|---|---|
+| **1. Working directory** | tu carpeta, donde editás | tu escritorio con los papeles |
+| **2. Staging** (el "carrito") | elegís QUÉ vas a guardar | elegís qué papeles van al sobre |
+| **3. Commit** (la "foto") | el guardado real, con fecha y mensaje | el sobre cerrado y archivado |
+
+El ciclo es siempre: **editar → agregar (`add`) → guardar (`commit`)**.
+
+---
+
+## Los comandos de la clase del 14/08
+
+```bash
+git init                 # arranca un repo en tu carpeta (una sola vez)
+git status               # qué cambió y qué está en el carrito
+git add archivo          # agrega un archivo al carrito (staging)
+git commit -m "mensaje"  # saca la foto (guarda con mensaje)
+git log                  # ve el historial de fotos (commits)
+```
+
+Esos 5 ya los vimos y los usamos para los primeros commits de este repo (`Primer commit`, `second commit`, `Edit README`).
+
+---
+
+## El flujo completo de ESTA actividad
+
+Acá sumamos el trabajo en equipo: clonar, rama, push y pull request.
+
+```bash
+# 1. Bajar el repo de GitHub a tu máquina (una sola vez)
+git clone https://github.com/desasoftfrlptn/clase1408.git
+cd clase1408
+
+# 2. Crear tu rama (cambia el número y tu apellido)
+git checkout -b ficha1/sesin
+
+# 3. Editar tu aporte en apunte/ficha1.md ...
+
+# 4. Guardar el trabajo (foto)
+git add apunte/ficha1.md
+git commit -m "docs(apunte): aporte ficha 1 - Sesin (Sommerville)"
+
+# 5. Subir tu rama a GitHub
+git push origin ficha1/sesin
+
+# 6. Abrir el pull request desde la web de GitHub (botón "Compare & pull request")
+```
+
+---
+
+## Los otros comandos que aparecen al laburar en equipo
+
+```bash
+git pull                 # trae los cambios de GitHub a tu máquina
+git checkout main        # te movés a la rama main
+git branch               # lista las ramas que tenés
+git merge                # une una rama con otra (lo hace el docente en el PR)
+```
+
+---
+
+## Mini-glosario
+
+| Término | Qué significa |
+|---|---|
+| **Repo** | El proyecto versionado (este repositorio `clase1408`). |
+| **Rama (branch)** | Una línea de trabajo paralela. Cada uno labura en la suya sin pisar a nadie. |
+| **Commit** | La "foto" guardada, con mensaje. |
+| **Push** | Subir tus commits a GitHub. |
+| **Pull request (PR)** | Pedir que tu rama se una a `main`. Es donde se revisa y se discute el aporte. |
+| **Merge** | Unir una rama con otra. |
+| **Conflicto** | Dos personas tocaron lo mismo; Git te lo marca y se resuelve a mano. |
+
+---
+
+## El mensaje del commit es oro
+
+`git commit -m "docs(apunte): aporte ficha 1 - Sesin (Sommerville)"` — el mensaje responde **QUÉ y POR QUÉ**. En 3 meses mirás el historial y agradecés haber escrito algo claro en vez de "arreglos varios".
