@@ -87,10 +87,8 @@ clase1408/
 
 ## ¿Cómo me sumo si todavía no estoy en el repo?
 
-Si no tenés acceso todavía:
-
-1. Aceptá la invitación de colaborador que te llegó al mail de GitHub.
-2. Si no te llegó, avisale al docente con tu **usuario de GitHub** para que te agregue.
+1. **Registrate en el issue** [📋 Registro de GitHub](https://github.com/desasoftfrlptn/clase1408/issues/1): dejá un comentario con tu nombre y tu usuario (`Nombre Apellido — @usuario`).
+2. El docente te agrega como colaborador y te avisa.
 3. Después seguí el flujo de `CONTRIBUTING.md`.
 
-> ¿Todavía no tenés cuenta de GitHub? Creala en [github.com](https://github.com) y pasale tu usuario al docente.
+> ¿Todavía no tenés cuenta de GitHub? Creala en [github.com](https://github.com) y registrate en el issue con tu usuario nuevo.
