@@ -44,7 +44,7 @@ Cada grupo lee un autor y aporta a una sección del apunte. La ficha está en `l
 | 20766 | SESIN, LEANDRO JAVIER | | 1 |
 | 26807 | ESTEBAN, LUCAS DARIO | | 2 |
 | 27019 | IROZ, NAHUEL LUCAS OMAR | | 3 |
-| 30820 | MICHELLI, GABRIEL MATIAS | | 4 |
+| 30820 | MICHELLI, GABRIEL MATIAS |elMagicOne7| 4 |
 | 31064 | PIERONI, NICOLAS AGUSTIN | | 6 |
 | 31780 | CARACAS APONTE, ELIAS OSWALDO | | 1 |
 | 31971 | LAFITTE GUADARRAMA, FRANCO | FrancoLafitte | 5 |
