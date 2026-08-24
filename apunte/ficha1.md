@@ -11,11 +11,12 @@
 
 ### 1. ¿Qué es una capa y cuál es su regla de dependencia?
 
-_[escribir acá la definición del grupo]_
+Una capa es una división que encapsula un conjunto específico de funcionalidades similares dentro del sistema. 
+Cuentan con una regla de dependencia jerárquica que exige que las capas superiores consuman únicamente los servicios que ofrece la capa que se encuentra inmediatamente por debajo de ella.
 
 ### 2. Un ejemplo concreto de cómo separar en capas "protege" un cambio
 
-_[escribir acá el ejemplo: cambiar la base de datos no obliga a tocar la pantalla]_
+si en un sistema bancario se decide rediseñar la app movil, cambiando la capa de presentacion, este rediseño no afecta en absoluto la lógica de cálculo de intereses en la base de datos de las cuentas.
 
 ---
 
