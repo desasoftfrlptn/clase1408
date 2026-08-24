@@ -11,11 +11,16 @@
 
 ### 1. Tres cualidades del software y a qué capa o preocupación transversal se conecta cada una
 
-_[escribir acá las 3 cualidades con su conexión]_
+1. Amigabilidad: Se conecta a la capa de presentacion o interfaz de usuario (UI). El apunte habla de que "la interfaz de usuario es un componente importante de la amigabilidad al usuario". Osea que de esta capa depende si el sistema resulta facil de utilizar para un humano, adaptandose a la experiencia del mismo.
+
+    Ejemplo: Si hacemos un sistema para un lavadero de autos, la amigabilidad para el cliente que va a reservar un turno seria que desde su celular encuentre facilmente los botones para elegir horario y tipo de servicio. Y para el empleado del lavadero la amigabilidad seria tener un panel rapido donde pueda ver los horarios en los que van a llegar autos para ser lavados.
+
+
 
 ### 2. ¿Por qué una cualidad como la seguridad no "vive" en una sola capa?
 
-_[escribir acá la explicación]_
+Esto es asi porque si solo nos ocupamos de la seguridad en una sola capa pero dejas otra totalmente vulnerable, todo tu sistema queda vulnerable. 
+    Ejemplo: Si tenemos un frontend y un backend seguros pero los datos viajan por una red sin ser encriptados, alguien que este en la misma red podria interceptarlos quedando todo el sistema vulnerable.
 
 ---
 
